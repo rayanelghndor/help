@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحويل اللغة العربية إلى لغة الإشارة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>تحويل النص العربي إلى لغة الإشارة</h1>
+
+    <label for="input-text">أدخل النص باللغة العربية:</label>
+    <textarea id="input-text" placeholder="أدخل النص هنا"></textarea>
+    <br>
+    <button onclick="convertToSignLanguage()">تحويل إلى لغة الإشارة</button>
+
+    <div id="sign-language-container">
+        <!-- ستعرض الإشارات هنا -->
+    </div>
+
+    <div id="missing-signs-alert" class="missing-sign"></div> <!-- لتعرض الحروف المفقودة -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

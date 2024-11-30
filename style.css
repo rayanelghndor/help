@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+#sign-language-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+img, video {
+    /* width: 1000px;   تم زيادة العرض */
+    height: 300px;  /* تم زيادة الارتفاع */
+    margin: 10px;
+}
+textarea {
+    width: 60%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    direction: rtl; /* النص من اليمين لليسار */
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.missing-sign {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
